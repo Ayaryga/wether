@@ -24,7 +24,7 @@ function App() {
           type="text"
           value={town}
           onChange={(event) => setTown(event.target.value)}
-          placeholder="Enter location"
+          placeholder="Введіть назву міста en"
           onKeyDown={cearchWeather}
         />
       </div>
